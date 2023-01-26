@@ -30,6 +30,8 @@
   .header__nav {
     display: flex;
     align-items: center;
+    font-size: 20px;
+    font-weight: bold;
   }
   
   .header__nav-item {
@@ -50,18 +52,22 @@
     margin-right: 10px;
     border-radius: 10px;
     background: #383838;
+    font-size: 15px;
+    font-weight: bold;
   }
 
-  .header__search-btn {
+  .header__search-button {
     font-family: 'Share Tech Mono', monospace;
     color: #000000;
     background-color: #a312c8;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
   }
 
-  .header__search-btn:hover {
+  .header__search-button:hover {
     transition: 0.5s;
     opacity: 0.7;
   }
