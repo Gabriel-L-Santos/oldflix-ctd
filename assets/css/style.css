@@ -7,7 +7,7 @@
   
   /* font */
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Share Tech Mono', monospace;
     color: #a312c8;
     background: black;
   }
@@ -24,6 +24,7 @@
   .header__title {
     color: #a312c8;
     margin: 0;
+    width: 170px;
   }
   
   .header__nav {
@@ -44,6 +45,7 @@
   }
   
   .header__search-input {
+    font-family: 'Share Tech Mono', monospace;
     padding: 10px;
     margin-right: 10px;
     border-radius: 10px;
@@ -51,6 +53,7 @@
   }
 
   .header__search-btn {
+    font-family: 'Share Tech Mono', monospace;
     color: #000000;
     background-color: #a312c8;
     padding: 10px;
