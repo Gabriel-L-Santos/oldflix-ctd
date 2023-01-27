@@ -2,6 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <link rel="icon" type="image/favicon" href="img/favicon.jpg">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,51 +13,30 @@
     </head>
 
     <body>
-        <div class="container">
-            <header class="header">
-              <img src="img/logo.png" class="header__title" alt="Logo do Oldflix">
-              <nav class="header__nav">
-                <a class="header__nav-item" href="#">Início</a>
-                <a class="header__nav-item" href="#">Séries</a>
-                <a class="header__nav-item" href="#">Filmes</a>
-                <form class="header__search-form" action="#">
-                  <input class="header__search-input" type="search" placeholder="search">
-                  <button class="header__search-button" type="submit">Pesquisar</button>
-                </form>
-              </nav>
-            </header>
-            <main class="main">
-              <section class="featured">
-                <h2 class="featured__title">Em Destaque</h2>
-                <div class="featured__content">
-                  <div class="featured__item">
-                    <img class="featured__img" src="img/show1.jpg" alt="Show 1">
-                    <h3 class="featured__name">Title 1</h3>
-                  </div>
-                  <div class="featured__item">
-                    <img class="featured__img" src="img/show2.jpg" alt="Show 2">
-                    <h3 class="featured__name">Title 2</h3>
-                  </div>
-                  <div class="featured__item">
-                    <img class="featured__img" src="img/show3.jpg" alt="Show 3">
-                    <h3 class="featured__name">Title 3</h3>
-                  </div>
-                </div>
-              </section>
-              <section class="genres">
-                <h2 class="genres__title">Gêneros</h2>
-                    <div class="genres__content">
-                        <div class="genre">Ação</div>
-                        <div class="genre">Comédia</div>
-                        <div class="genre">Drama</div>
-                        <div class="genre">Horror</div>
-                    </div>
-                </section>             
-            </main>
+         <div class="nav">
+            <img class="nav__logo" src="img/logo.png" alt="Logo do Oldflix">
+            <nav class="nav__nav">
+              <a class="nav__nav-item" href="#">Início</a>
+              <a class="nav__nav-item" href="#">Séries</a>
+              <a class="nav__nav-item" href="#">Filmes</a>
+              <form class="nav__search-form" action="#">
+                <input class="nav__search-input" type="search" placeholder="pesquisar">
+                <button class="nav__search-button" type="submit">Pesquisar</button>
+              </form>
+            </nav>
+            <img class="nav__avatar" src="img/avatar.jpg" alt="Avatar do Usuário">
+          </div>
+
+          <header class="banner">
+            <div class="banner__contents">
+                <h1>De Volta para o Futuro</h1>
+            </div>
+          </header>
+            
                 <footer class="footer">
                     <p class="footer__copyright">Copyright Oldflix</p>
                 </footer>  
-        </div> 
+         
         <script src="js/script.js"></script>    
     </body>
 </html>

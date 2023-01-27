@@ -12,41 +12,50 @@
     background: black;
   }
   
-  /* header */
-  .header {
+  /* nav */
+  .nav {
     background-color: #000000;
-    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
   }
   
-  .header__title {
-    color: #a312c8;
-    margin: 0;
-    width: 170px;
+  .nav__logo {
+    width: 150px;
+    object-fit: contain;
+  }
+
+  .nav__avatar {
+    width: 40px;
+    object-fit: contain; 
   }
   
-  .header__nav {
+  .nav__nav {
     display: flex;
     align-items: center;
     font-size: 20px;
     font-weight: bold;
   }
   
-  .header__nav-item {
+  .nav__nav-item {
     color: #a312c8;
     text-decoration: none;
     padding: 10px;
     margin-right: 10px;
   }
   
-  .header__search-form {
+  .nav__search-form {
     display: flex;
     align-items: center;
   }
   
-  .header__search-input {
+  .nav__search-input {
     font-family: 'Share Tech Mono', monospace;
     padding: 10px;
     margin-right: 10px;
@@ -56,7 +65,7 @@
     font-weight: bold;
   }
 
-  .header__search-button {
+  .nav__search-button {
     font-family: 'Share Tech Mono', monospace;
     color: #000000;
     background-color: #a312c8;
@@ -67,66 +76,16 @@
     font-weight: bold;
   }
 
-  .header__search-button:hover {
+  .nav__search-button:hover {
     transition: 0.5s;
     opacity: 0.7;
   }
 
-  /* main */
-  .main {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
+  /* header */
   
-  /* featured */
-  .featured {
-    width: 30%;
-  }
-  
-  .featured__title {
-    margin-bottom: 20px;
-  }
-  
-  .featured__content {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .featured__item {
-    width: 30%;
-    margin-right: 10px;
-  }
-  
-  .featured__img {
-    width: 100%;
-  }
-  
-  .featured__name {
-    margin-top: 10px;
-  }
-  
-  /* genres */
-  .genres {
-    width: 30%;
-  }
-  
-  .genres__title {
-    margin-bottom: 20px;
-  }
-  
-  .genres__content {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .genre {
-    width: 30%;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    list-style: none;
-  }
-  
+
+
+
   /* footer */
   .footer {
     background-color: #000000;
