@@ -1,11 +1,9 @@
-// Obtém referência aos botões de navegação
-const navButtons = document.querySelectorAll('.header__nav-item');
-
-// Adiciona evento de clique aos botões de navegação
-navButtons.forEach(function(button) {
-  button.addEventListener('click', function(event) {
-    event.preventDefault();
-    // aqui você pode adicionar a funcionalidade desejada para cada botão de navegação
-    console.log(event.target.textContent);
-  });
-});
+const nav = document.getElementById('nav');
+      window.addEventListener('scroll', ()=>{
+          if(window.scrollY >= 100){
+              nav.classList.add('nav__black');
+          } else {
+              nav.classList.remove('nav__black');
+          }
+      })
+      
