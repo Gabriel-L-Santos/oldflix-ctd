@@ -10,6 +10,8 @@
 
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     </head>
 
     <body>
@@ -45,16 +47,16 @@
             <div class="row">
                 <h2>Filmes Em Destaque</h2>
                 <div class="row__posters">
-                    <img class="row__poster row__posterLarge" src="img/bttf.png" alt=""/>
-                    <img class="row__poster row__posterLarge" src="img/tron.png" alt=""/>
-                    <img class="row__poster row__posterLarge" src="img/beverly-hills-cop.jpg" alt=""/>
-                    <img class="row__poster row__posterLarge" src="img/big-trouble-in-little-china.jpg" alt=""/>
-                    <img class="row__poster row__posterLarge" src="img/blade-runner.png" alt=""/>
-                    <img class="row__poster row__posterLarge" src="img/empire-strikes-back.png" alt=""/>
-                    <img class="row__poster row__posterLarge" src="img/escape-from-new-york.png" alt=""/>
-                    <img class="row__poster row__posterLarge" src="img/predator.jpg" alt=""/>
-                    <img class="row__poster row__posterLarge" src="img/the-goonies.jpg" alt=""/>
-                    <img class="row__poster row__posterLarge" src="img/the-breakfast-club.png" alt=""/>
+                    <div><img class="row__poster row__posterLarge" src="img/bttf.png" alt=""/></div>
+                    <div><img class="row__poster row__posterLarge" src="img/tron.png" alt=""/></div>
+                    <div><img class="row__poster row__posterLarge" src="img/beverly-hills-cop.jpg" alt=""/></div>
+                    <div><img class="row__poster row__posterLarge" src="img/big-trouble-in-little-china.jpg" alt=""/></div>
+                    <div><img class="row__poster row__posterLarge" src="img/blade-runner.png" alt=""/></div>
+                    <div><img class="row__poster row__posterLarge" src="img/empire-strikes-back.png" alt=""/></div>
+                    <div><img class="row__poster row__posterLarge" src="img/escape-from-new-york.png" alt=""/></div>
+                    <div><img class="row__poster row__posterLarge" src="img/predator.jpg" alt=""/></div>
+                    <div><img class="row__poster row__posterLarge" src="img/the-goonies.jpg" alt=""/></div>
+                    <div><img class="row__poster row__posterLarge" src="img/the-breakfast-club.png" alt=""/></div>
                 </div>
             </div>
 
@@ -129,6 +131,19 @@
         </div>
       </div>
       <script src="js/script.js"></script>
+      <script src="js/carousel.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="slick/slick.min.js"></script>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.row__posters').slick({
+            setting-name: setting-value
+          });
+        });
+      </script>
+
     </body>
  </html>
 
