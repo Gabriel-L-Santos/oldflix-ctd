@@ -206,4 +206,45 @@
   .nav__black {
     background-color: #111;
   }
+
+  /* mobile */
+
+  @media screen and (max-width: 480px) {
+    .nav, .banner {
+      width: auto;
+    }
+
+    .nav__nav-item {
+      color: #e6050500;
+    }
+
+    .banner__description {
+      color: #00000000;
+    }
+
+    .banner__title {
+      margin-right: 33px;
+    }
+
+    .banner__button {
+      margin-right: 3rem;
+    }
+
+    body {
+      width: auto;
+    }
+  
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  
+    nav {
+      position: static;
+    }
+  }
+  
   
