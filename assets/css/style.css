@@ -110,13 +110,13 @@
 
   /* header */
   .banner {
-    background-image: url('banner.jpg');
+    background-image: url('bttf-banner.jpg');
     background-size: cover;
     background-position: center center;
     color: white;
     object-fit: contain;
     height: 448px;
-  }  
+  }
 
   .banner__contents {
     margin-left: 30px;

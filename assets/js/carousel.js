@@ -1,5 +1,5 @@
 $('.row__posters, .row__poster, .row__posterLarge').slick({
-    infinite: true,
-    slidesToShow: 8,
-    slidesToScroll: 4
-  });
+  infinite: true,
+  slidesToShow: 8,
+  slidesToScroll: 2
+});
