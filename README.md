@@ -27,7 +27,7 @@ Pra este projeto, pensei em fazer uma interface semelhante à da Netflix, só qu
 
 - [Slick](http://kenwheeler.github.io/slick/) - foi usado para fazer o efeito de "carousel" nos banners dos filmes.
 
-- [jQuery](https://jquery.com/) - biblioteca Javascript usada para o efeito de slide.
+- [jQuery](https://jquery.com/) - biblioteca Javascript usada para o efeito de "carousel".
 
 ## Autor do Projeto
 
