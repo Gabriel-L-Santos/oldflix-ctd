@@ -74,6 +74,7 @@
   
   .nav__search-input {
     font-family: 'Share Tech Mono', monospace;
+    color: white;
     padding: 6px;
     width: 110px;
     margin-right: 10px;
@@ -85,7 +86,7 @@
   }
 
   .nav__search-input:hover {
-    color: #a312c8;
+    color: white;
     transform: scale(1.07);
   }
 
@@ -227,7 +228,7 @@
     }
 
     .banner__button {
-      margin-right: 3rem;
+      margin: 27px;
     }
 
     body {
