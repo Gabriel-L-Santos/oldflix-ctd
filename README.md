@@ -1,6 +1,6 @@
 # Oldflix
 
-## Link do projeto
+## Deploy do projeto
 
 <https://oldflix.netlify.app/>
 
